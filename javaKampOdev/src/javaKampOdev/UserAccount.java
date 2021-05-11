@@ -1,14 +1,11 @@
 package javaKampOdev;
 
 public class UserAccount {
-	
-public UserAccount (String fullName,String email,int password) {
-	this.fullName = fullName;
-	this.email = email;
-	this.password = password;
-		
-	}
-	String fullName;
+
+	int id;
+	String name;
+	String lastname;
+	String nationalIdentity;
 	String email;
 	int password;
 
